@@ -58,3 +58,14 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__text {
+  position: relative;
+}
+
+.user-component__text span {
+  color: red;
+  position: absolute;
+  right: -20px;
+  bottom: 0px;
+}
