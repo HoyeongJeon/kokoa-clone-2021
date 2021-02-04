@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component__avatar,
 .user-component__column:first-child {
   display: flex;
@@ -40,4 +44,9 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
+}
+
+.user-component__column:last-child {
+  padding-top: 17px;
+  color: rgba(0, 0, 0, 0.5);
 }
