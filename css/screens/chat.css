@@ -34,4 +34,42 @@
   background-color: #92a4ba;
   padding: 10px;
   border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.message__author {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.message__bubble {
+  background-color: white;
+  padding: 8px 13px;
+  border-radius: 12px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__author,
+.message__time {
+  opacity: 0.8;
+  font-size: 15px;
 }
