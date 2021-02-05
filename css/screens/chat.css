@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 1100vh;
+  height: 11000vh;
 }
 
 #chat-screen .alt-header,
@@ -22,5 +22,16 @@
 }
 
 .main-chat {
-  margin-top: 100px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.chat__timestamp {
+  color: white;
+  background-color: #92a4ba;
+  padding: 10px;
+  border-radius: 25px;
 }
